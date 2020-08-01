@@ -12,7 +12,7 @@ int min(int j,int n) //ブロックの末尾の値
     else return n;
 }
 
-int mBlockSearch(int x) //遂次探索
+int mBlockSearch(int x) //m-ブロック法
 {
     int j = 0;
     int k = ceil(N/m);
