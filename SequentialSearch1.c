@@ -21,5 +21,5 @@ int main(){
     i = SequentialSearch(x);
     if(i == -1) printf("%2dはありませんでした\n",x);
     else printf("%2d番目に%2dを発見\n",i+1,x);
-	return 0;
+    return 0;
 }
